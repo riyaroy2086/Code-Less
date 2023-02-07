@@ -1,0 +1,511 @@
+{
+  "HTML improved Starter Template":{
+        "prefix": "!html",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+                "<meta charset=\"UTF-8\">",
+                "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+                "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+                "<!-- CSS -->",
+                "<link rel=\"stylesheet\" href=\"style.css\">",
+                "<!-- JS -->",
+                "<script src=\"scripts.js\"></script>",
+                "<!-- BOOTSTRAP -->",
+                "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css\">",
+                "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js\"></script>",
+                "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js\"></script>",
+                "<!-- FONT AWESOME -->",
+                "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">",
+                "<!-- GOOGLE FONTS -->",
+                "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\">",
+                "<link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap\" rel=\"stylesheet\">",
+                "<!--FLATICON-->",
+                "<link href=\"/your-path-to-uicons/css/uicons-[your-style].css\" rel=\"stylesheet\">",
+                "<title>${1}</title>",
+            "</head>",
+            "<body>" ,
+            "</body>",
+            "</html>"        
+        ],
+        "description": "HTML improved Starter Template"
+   },
+   "CSS Starter boilerplate template" :{
+        "prefix": "!css",
+        "body": [
+            "* {",
+                "width: 100wh;",
+                "height: 100vh;",
+                "font-family: Arial, Helvetica, sans-serif;",
+                "margin: 0;",
+                "padding: 0;",
+                "box-sizing: border-box;",
+              "}${1}",
+        ],
+        "description": "CSS improved Starter Template"
+   },
+   "fixed navbar" :{
+    "prefix": "fixed-nav-css",
+    "body": [
+        ".navbar { //outermost div", 
+            "overflow: hidden",
+            "background-color: #000;",
+            "position: fixed;",
+            "top: 0;;",
+            "left: 0;",
+            "width: 100%;",
+            "padding: 1rem;",
+          "}${1}",
+        ],
+        "description": "CSS fixed navbar"
+   },
+   "center div inside a div" :{
+    "prefix": "center-div-css",
+    "body": [
+        ".outer-div {",
+            "width: 100%;",
+            "display: flex;",
+            "justify-content: center;",
+        "}",
+        "inner-div {",
+        "}${1}", 
+        ],
+        "description": "CSS center div inside a div"
+   },
+    "form" :{
+     "prefix": "form-css",
+     "body": [
+        ".container {",
+            "position: absolute;",
+            "max-width: 25rem;",
+            "padding: 1.5rem;",
+            "background-color: white;",
+            "border: 1px solid black;",
+          "}",
+          
+          "input[type=\"text\"],",
+          "input[type=\"password\"] {",
+            "width: 100%;",
+            "padding: 15px;",
+            "margin: 5px 0 22px 0;",
+            "border: none;",
+            "background: #f1f1f1;",
+          "},",
+          
+          "input[type=\"text\"]:focus,",
+          "input[type=\"password\"]:focus {",
+            "background-color: #ddd;",
+            "outline: none;",
+          "}",
+          
+          ".btn {",
+            "background-color: #3e04aa;",
+            "color: white;",
+            "border-radius: 8px;",
+            "padding: 1rem;",
+            "border: none;",
+            "cursor: pointer;",
+           "opacity: 1;",
+          "}",
+          
+          ".btn:hover {",
+            "opacity: 0.7;",
+          "}${1}",
+          ],
+          "description": "CSS form"
+    },
+    "100% bg img" :{
+     "prefix": "full-bg-img-css",
+     "body": [
+        ".background-img {",
+            "background-image: url(\"img.jpg\");",
+            "background-position: center;",
+            "background-repeat: no-repeat;",
+            "background-size: cover;",
+          "},${1}",
+          
+          ],
+          "description": "CSS 100% bg img"
+    },
+    "responsive top navbar" :{
+     "prefix": "top-nav-css",
+     "body": [
+        ".navbar {",
+            "background-color: #000;",
+            "overflow: auto;",
+            "top: 0;",
+          "}",
+          
+          ".navbar a {",
+            "text-decoration: none;",
+            "float: left;",
+            "padding: 16px;",
+            "color: white;",
+            "width: 8%; ",
+            "text-align: center;",
+          "}",
+          ".navbar a:hover {",
+            "background-color: #1fccf3;",
+          "}",
+          
+          "@media screen and (max-width: 500px) {",
+            ".navbar a {",
+              "float: none;",
+              "display: block;",
+            "}",
+          "}",
+          
+          
+          ],
+          "description": "CSS top navbar"
+    },
+    "responsive side navbar" :{
+     "prefix": "side-nav-css",
+     "body": [
+        ".sidenav {",
+            "height: 100%;",
+            "width: 0;",
+            "position: fixed;",
+            "z-index: 1;",
+            "top: 0;",
+            "left: 0;",
+            "background-color: #111;",
+            "overflow-x: hidden;",
+            "transition: 0.5s;",
+            "padding-top: 60px;",
+          "}",
+          
+          ".sidenav a {",
+            "padding: 8px 8px 8px 32px;",
+            "text-decoration: none;",
+            "font-size: 25px;",
+            "color: #818181;",
+            "display: block;",
+            "transition: 0.3s;",
+          "}",
+          
+          ".sidenav a:hover {",
+            "color: #f1f1f1;",
+          "}",
+          
+          ".sidenav .closebtn {",
+            "position: absolute;",
+            "top: 0;",
+            "right: 25px;",
+            "font-size: 36px;",
+            "margin-left: 50px;",
+          "}",
+          
+          "#main {",
+            "transition: margin-left .5s;",
+            "padding: 16px;",
+          "}",
+          
+          "@media screen and (max-width: 450px) {",
+            ".sidenav {",
+              "padding-top: 15px;",
+            "}",
+            ".sidenav a {",
+              "font-size: 18px;",
+            "}",
+          "}${1}",
+          
+          ],
+          "description": "CSS side navbar"
+    },
+    "responsive footer" :{
+     "prefix": "footer-css",
+     "body": [
+        ".footer {",
+            "position: fixed;",
+            "left: 0;",
+            "bottom: 0;",
+            "width: 100%;",
+            "background-color: #000;",
+            "color: white;",
+            "text-align: center;",
+          "}",
+          
+          ],
+          "description": "CSS footer"
+    },
+    "responsive grid" :{
+     "prefix": "grid-css",
+     "body": [
+        ".row {",
+            "display: flex;",
+            "flex-wrap: wrap;",
+            "padding: 0 4px;",
+          "}",
+          
+          ".column {",
+            "flex: 25%;",
+            "max-width: 25%;",
+            "padding: 0 4px;",
+          "}",
+          
+          ".column img {",
+            "margin-top: 8px;",
+            "vertical-align: middle;",
+          "}",
+          
+          "@media screen and (max-width: 800px) {",
+            ".column {",
+              "flex: 50%;",
+              "max-width: 50%;",
+            "}",
+          "}",
+          
+          "@media screen and (max-width: 600px) {",
+            ".column {",
+              "flex: 100%;",
+              "max-width: 100%;",
+            "}",
+          "}",
+          
+          ],
+          "description": "CSS grid"
+    },
+    "responsive table":{
+        "prefix": "table-css",
+        "body":
+        [
+        "* {",
+        "width:1200px;",
+        "height:100px;",
+        "font-family: Arial, Helvetica, sans-serif;",
+        "margin: 0;",
+        "padding: 0;",
+        "box-sizing: border-box;",
+        "}",
+        
+        ".row {",
+            "margin:0 10px;",
+            "}",
+            
+            ".column {",
+            "float: left;",
+            "margin-left: 10px;",
+            "padding: 5px;",
+            "}",
+            
+            ".row::after {",
+            "content: \"\";",
+            "clear: both;",
+            "display: table;",
+            "}",
+            
+            "table {",
+            "border-collapse: collapse;",
+            "border-spacing: 0;",
+            "width: 100%;",
+            "border: 1px solid #ddd;",
+            "}",
+            
+            "th, td {",
+            "text-align: left;",
+            "padding: 16px;",
+            "",
+            
+            "tr:nth-child(even) {",
+            "background-color: #f2f2f2;",
+            "}",
+        ]   
+    },
+    "responsive 2 cols" :{
+        "prefix": "2-cols-css",
+        "body": [
+           ".column {",
+            "float: left;",
+            "width: 50%;",
+            "padding: 10px;",
+            "height: 1000px; ",
+          
+          "}",
+          ".row:after {",
+            "content: \"\";",
+            "display: table;",
+            "clear: both;",
+          "}",
+             
+            ],
+            "description": "CSS 2 cols"
+    },
+    "Color Gradient" :{
+        "prefix": "grad-css",
+        "body": [
+           ".gradient{",
+            "height: 200px;",
+            "background-color: blue; ", 
+            "background-image: linear-gradient(to right, #39B5E0, #8DCBE6, #C0EEE4);",
+          "}",
+        ],
+        "description": "CSS 2 cols"
+    },
+    "Masking":{
+        "prefix":"mask-css",
+        "body":[
+            ".mask1 {",
+                "-webkit-mask-image: url(over.jpg);",
+                "mask-image: url(over.jpg);",
+                "-webkit-mask-repeat: no-repeat;",
+                "mask-repeat: no-repeat;",
+            "}",
+        ],
+        "description": "CSS Masking"
+    },
+    "Responsive Card":{
+        "prefix":"card-css",
+        "body":[
+            ".card {",
+                "box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);",
+                "border-radius: 8px;",
+                "padding: 16px;",
+                "text-align: center;",
+                "background-color: #e2e2e2;",
+            "}",
+            ".textarea {",
+                "width: 100%;",
+                "height: 150px;",
+                "padding: 12px 20px;",
+                "box-sizing: border-box;",
+                "border: 2px solid #ccc;",
+                "border-radius: 4px;",
+                "background-color: #f8f8f8;",
+                "font-size: 16px;",
+                "resize: none;",
+              "}",
+            
+            ".select {",
+                "width: 100%;",
+                "padding: 16px 20px;",
+                "border: none;",
+                "border-radius: 4px;",
+                "background-color: #f1f1f1;",
+            "},",
+        ],
+        "description": "CSS Card"
+    },
+    "Responsive Button":{
+        "prefix":"button-css",
+        "body":[
+            ".button {",
+                "background-color: #4CAF50;",
+                "border: none;",
+                "color: white;",
+                "padding: 16px 32px;",
+                "text-align: center;",
+                "text-decoration: none;",
+                "display: inline-block;",
+                "font-size: 16px;",
+                "margin: 4px 2px;",
+                "-webkit-transition-duration: 0.4s;",
+                "transition-duration: 0.4s;",
+                "cursor: pointer;",
+            "}",
+            ".button1 {",
+                "background-color: white;",
+                "color: black;",
+                "border: 2px solid #4CAF50;",
+            "}",
+            ".button1:hover {",
+                "background-color: #4CAF50;",
+                "color: white;",
+            "}",        
+        ],
+        "description": "CSS Button"
+    },
+    "Responsive Search Bar":{
+        "prefix":"search-css",
+        "body": [
+            ".topnav input[type=text] {",
+                "justify-content: center;",
+                "padding: 0.5rem;",
+                "text-align: left;",
+                "border: none;",
+              "}",
+              
+              ".topnav .search-container button {",
+                "float: right;",
+                "background: #000;",
+                "border: 1px solid #000;",
+                "cursor: pointer;",
+              "}",
+              
+              ".topnav .search-container button:hover {",
+                "background: #000;",
+              "}",
+              
+              "@media screen and (max-width: 600px) {",
+                ".topnav .search-container {",
+                  "float: none;",
+                "}",
+                ".topnav a, .topnav input[type=text], .topnav .search-container button {opnav .search-container button {",
+                  "float: none;",
+                  "display: block;",
+                  "text-align: left;",
+                  "width: 100%;",
+                  "margin: 0;",
+                  "padding: 14px;",
+                "}",
+                ".topnav input[type=text] {",
+                  "border: 1px solid #000; ", 
+                "}",
+              "}",
+        ],
+        "description": "CSS Search bar"
+    },
+    "Responsive Form HTML":{
+        "prefix": "form-html",
+        "body":[
+            "<div class=\"bg-img\">",
+                "<form action=\"/action_page.php\" class=\"container\">",
+                "<h1>Sign Up</h1>",
+            
+                "<label for=\"email\"><b>Email</b></label>",
+                "<input type=\"text\" placeholder=\"Enter Email\" name=\"email\" required>",
+            
+                "<label for=\"psw\"><b>Password</b></label>",
+                "<input type=\"password\" placeholder=\"Enter Password\" name=\"psw\" required>",
+            
+                "<button type=\"submit\" class=\"btn\">Sign Up</button>",
+                "</form>",
+            "</div>",
+        ],
+        "description": "form"
+
+    },
+    "Search Navbar":{
+        "prefix": "search-form-html",
+         "body":[
+            "<div class=\"topnav\">",
+                "<div class=\"search-container\">",
+                    "<form action=\"/action_page.php\">",
+                    "<input type=\"text\" placeholder=\"Search\" name=\"search\">",
+                    "<button type=\"submit\"><i class=\"fa fa-search\"></i></button>",
+                    "<textarea>Some text...</textarea>",
+                    "<select id=\"country\" name=\"sports\">",
+                        "<option value=\"au\">Football</option>",
+                        "<option value=\"ca\">Cricket</option>",
+                        "<option value=\"usa\">Tennis</option>",
+                    "</select>",
+                    "</form>",
+                "</div>",
+            "</div>"
+         ],
+         "description": "Search Navbar"
+    },
+    "Simple Navbar":{
+        "prefix": "nav-html",
+         "body":[
+            "<div class=\"navbar\">",
+                "<a class=\"active\" href=\"#\"><i class=\"fa fa-fw fa-home\"></i> Home</a> ",
+                "<a href=\"#\"><i class=\"fa fa-fw fa-search\"></i> Search</a> ",
+                "<a href=\"#\"><i class=\"fa fa-fw fa-envelope\"></i> Contact</a> ",
+                "<a href=\"#\"><i class=\"fa fa-fw fa-user\"></i> Login</a>",
+            "</div> ",
+         ],
+         "description": "Navbar"
+    }
+}
