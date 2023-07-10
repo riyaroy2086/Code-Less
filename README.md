@@ -1,5 +1,7 @@
 
-![icon](https://github.com/riyaroy2086/Code-Less/assets/89868832/c1ddd104-5425-4ff5-ad81-b51751fc6685)
+ <p align="center">
+   <img width="200" src="https://github.com/riyaroy2086/Code-Less/blob/main/icon.png">
+ </p>
 
 # Code-Less
 
