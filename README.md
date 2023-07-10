@@ -1,3 +1,6 @@
+
+![icon](https://github.com/riyaroy2086/Code-Less/assets/89868832/c1ddd104-5425-4ff5-ad81-b51751fc6685)
+
 # Code-Less
 
 👩‍💻 Coding the repeatitive templates can be tiresome sometimes. Code-Less creates boiler templates for HTML and CSS effectively.👍 
