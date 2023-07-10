@@ -16,6 +16,9 @@ CSS and SCSS code snippets include GlassMorphism Effect styled components. ✨
 - Effective in generating React Hooks and Vue components.
 - Saves time while coding.
 
+##   Visual Studio   |   Marketplace
+- https://marketplace.visualstudio.com/items?itemName=riyaroy.code-less
+
 ## Usage Instructions
 
 1. Open the command palette (Ctrl+Shift+P on Windows and Linux, Cmd+Shift+P on OS X) and search for Code-Less.
