@@ -107,6 +107,15 @@ Contributions are what make the open source community such an amazing place to b
 | vue-tabs                     | Vue Tabs Component                                 |
 | vue-navbar                   | Vue Navbar                                         |
 | vue-footer                   | Vue footer                                         |
+| react-redux                  | React Redux starter template                       |
+| react-redux-action           | React Redux Action                                 |
+| react-redux-reducer          | React Redux Reducer                                |
+| react-redux-store            | React Redux Store                                  |
+| vuex                         | Vuex starter template                              |
+| vuex-module                  | Vuex Module template                               |
+| vuex-action                  | Vuex Action template                               |
+| vuex-mutation                | Vuex Mutation template                             |
+| vuex-getter                  | Vuex Getter template                               |
 
 ---
 ![codeless](https://user-images.githubusercontent.com/89868832/218317800-668ca6aa-e14d-4a59-91bd-ea962781167f.jpg)
