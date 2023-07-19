@@ -7,32 +7,16 @@
 
 👩‍💻 Coding the repeatitive templates can be tiresome sometimes. Code-Less creates boiler templates for HTML and CSS effectively.👍 
 Helps to code conventional and customized ReactJs Hooks and VueJS Components. 🚀
-CSS and SCSS code snippets include GlassMorphism Effect styled components. ✨
+CSS and SCSS code snippets include GlassMorphism Effect styled components.
 
 ## Features
 
 - Creates boiler templates with maximum utility.
-- Get rid of intial tiresome CSS, HTML, ReactJS and VueJS starter code.
+- Get rid of initial tiresome CSS, HTML, ReactJS , VueJS and NuxtJS starter and functionality implementation code.
 - Effective in generating React Hooks and Vue components.
-- Saves time while coding.
-
-##   Visual Studio   |   Marketplace
-- https://marketplace.visualstudio.com/items?itemName=riyaroy.code-less
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/riyaroy2086/DSA/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
-  
-### Creating A Pull Request
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- Generates Redux and Vuex functionality code.
+- Capable of generating NuxtJS functionality code.
+- Saves time while coding and increases productivity.
 
 ## Usage Instructions
 
@@ -111,11 +95,26 @@ Contributions are what make the open source community such an amazing place to b
 | react-redux-action           | React Redux Action                                 |
 | react-redux-reducer          | React Redux Reducer                                |
 | react-redux-store            | React Redux Store                                  |
+| react-redux-thunk            | React Redux Thunk                                  |
+| react-redux-thunk            | React Redux Thunk                                  |
+| react-redux-thunk-action     | React Redux Thunk Action                           |
 | vuex                         | Vuex starter template                              |
 | vuex-module                  | Vuex Module template                               |
 | vuex-action                  | Vuex Action template                               |
 | vuex-mutation                | Vuex Mutation template                             |
 | vuex-getter                  | Vuex Getter template                               |
+| vue-router                   | Vue Router                                         |
+| vue-router-view              | Vue Router View                                    |
+| vue-router-link              | Vue Router Link                                    |
+| vue-router-link-params       | Vue Router Link with Params                        |
+| nuxt-link                    | Nuxt-Link                                          |
+| nuxt-link-params             | Nuxt-Link with Params                              |
+| nuxt-link-query              | Nuxt-Link with Query                               |
+| nuxt-fetch                   | Nuxt Fetch                                         |
+| nuxt-fetch-params-query      | Nuxt Fetch with Params and Query                   |
+| uxt-fetch-store-params       | Nuxt Fetch with Store and Params                   |
+| uxt-fetch-store-query        | Nuxt Fetch with Store and Query                    |
+
 
 ---
 ![codeless](https://user-images.githubusercontent.com/89868832/218317800-668ca6aa-e14d-4a59-91bd-ea962781167f.jpg)
